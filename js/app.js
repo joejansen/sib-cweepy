@@ -19,5 +19,25 @@ $(document).ready(function () {
   5. Refactor
 
   **/
+ var html = '<form class="add-cweep-form"><input type="text" class="add-cweep-form message" value="texteroo"><input type="submit" class="add-cweep-form button" value="Post"></form>';
+   
+ var messageSubmit = '<li><div class="avatar" style="background: url(img/shojberg.jpg); background-size: 50px 50px;"></div><div class="message">alert("YYYYEEEAAHHHH");</div></li>';
+   
+   
+  $('.add-cweep').click(function(){
+	  
+	  $("header").append(html);
+	  $('.add-cweep-form .button').click(function(){
+		  
+		  var text = $('.message').val();
+		  /**
+		  alert(text);
+		  **/
+		  $('.cweep-list').append(messageSubmit);
+	  
+	  });
+  });
+  
+
 
 });

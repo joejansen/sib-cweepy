@@ -10,10 +10,11 @@ body {
 #app {
   width: 400px;
   background: #fff;
-  margin: 50px auto;
+  margin: 50px auto 0px auto;
   border-radius: 8px 8px 6px 6px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
   -webkit-background-clip: padding-box;
+  float:left;
 }
 
 .header {
@@ -184,4 +185,15 @@ body {
   margin-left: 20px;
   font-size: 18px;
   padding: 16px 0;
+}
+
+#gr_grid_widget_1385492863{
+	width:400px;
+	margin: 0px auto;
+	float:right;
+}
+
+*{
+	border:1px solid red;
+	padding:0px;
 }
